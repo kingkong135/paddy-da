@@ -1,0 +1,7 @@
+Namespace(backbone='resnet50', batch_size=32, config='DAAN/DAAN.yaml', data_dir='paddy', device=device(type='cuda'), early_stop=0, epoch_based_training=False, lr=0.01, lr_decay=0.75, lr_gamma=0.0003, lr_scheduler=True, momentum=0.9, n_epoch=20, n_iter_per_epoch=500, num_workers=3, seed=1, src_domain='source', tgt_domain='target', transfer_loss='daan', transfer_loss_weight=1.0, use_bottleneck=True, weight_decay=0.0005)
+Epoch: [ 1/20], cls_loss: 0.4503, transfer_loss: 0.0370, total_Loss: 0.4873, test_loss 3.000258, test_acc: 39.8176
+Epoch: [ 2/20], cls_loss: 0.0170, transfer_loss: 0.0267, total_Loss: 0.0438, test_loss 3.175799, test_acc: 38.9666
+Epoch: [ 3/20], cls_loss: 0.0075, transfer_loss: 0.0232, total_Loss: 0.0307, test_loss 3.515851, test_acc: 35.0760
+Epoch: [ 4/20], cls_loss: 0.0037, transfer_loss: 0.0213, total_Loss: 0.0250, test_loss 3.250170, test_acc: 37.6292
+Epoch: [ 5/20], cls_loss: 0.0030, transfer_loss: 0.0200, total_Loss: 0.0231, test_loss 3.424379, test_acc: 36.8389
+Epoch: [ 6/20], cls_loss: 0.0015, transfer_loss: 0.0191, total_Loss: 0.0206, test_loss 3.517323, test_acc: 34.8936
